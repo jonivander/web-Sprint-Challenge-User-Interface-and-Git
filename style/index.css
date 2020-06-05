@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border:0
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -222,19 +222,27 @@ header nav {
     border-bottom: 1px dashed black;
 }
 
+.about-grid {
+    width: 800px;
+    margin: 0 auto;
+}
 
 .about-grid .items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding:20px;
+    justify-content: space-between;
+
 }
 
 .about-grid .item {
-    width: 48%;
-    padding: 0 2%;
+    width: 50%;
     padding-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+.about-grid .items .item p {
+    margin-bottom: 25px;
 }
 
 .about-grid .items .item nav a{
@@ -249,8 +257,12 @@ header nav {
 
 .about-grid .items .item nav a:hover {
     color: white;
-    background-color: black;
+    background-color: red;
     transform: ;
+}
+
+.bottom-about {
+    padding-bottom: 30px;
 }
 
 footer {
