@@ -206,6 +206,16 @@ header nav {
     padding-right: 0;
 }
 
+/* About Page Styling*/
+
+.about-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
 footer {
     width: 100%;
     background: black;
