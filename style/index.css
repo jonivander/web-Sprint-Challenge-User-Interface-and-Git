@@ -66,6 +66,47 @@ p {
     line-height: 1.4;
 }
 
+header {
+    
+}
+
+header nav {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width:15%;
+    margin-left: 400px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.links {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.headerimg {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
